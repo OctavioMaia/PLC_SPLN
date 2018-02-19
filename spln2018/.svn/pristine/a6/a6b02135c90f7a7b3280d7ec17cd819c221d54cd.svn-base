@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+"""
+bloco de comentários
+spln2018
+"""
+
+#print hello world
+msg = 'Hello world!'
+
+print(msg)

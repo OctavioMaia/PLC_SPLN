@@ -1,0 +1,147 @@
+\documentclass[portuges,a4paper]{article}
+\usepackage{babel}
+\usepackage[mathletters]{ucs}
+\usepackage[utf8x]{inputenc}
+
+\usepackage[T1]{fontenc}
+\usepackage{fancyvrb}
+\usepackage{url}
+\def\caixa#1{ \vskip .1cm \fbox{\begin{minipage}{0.95\columnwidth}#1\end{minipage}}\vskip .1cm}
+\parindent 0pt
+\parskip 6pt
+\begin{document}
+
+\title{Python}
+\author{J.João and spln2018}
+\date{\today}
+\maketitle
+\tableofcontents
+
+\section{Python}
+
+Recomenda-se:
+\begin{itemize}
+\item  \url{https://www.python-course.eu/python3_course.php}
+\item \url{https://ehmatthes.github.io/pcc/cheatsheets/README.html}
+\end{itemize}
+
+\subsection{Números}
+
+\caixa{
+\textbf{Descrição}  \hfill{}  \textbf{Notação} \ \  \\
+\texttt{int(exp)}\\
+\texttt{12 0x12 0o12 0b1011101} \\
+\texttt{hex(x) oct(x) bin(x) : integer → string} \\
+\texttt{3+4j} \dotfill{} números complexos
+\texttt{13//24} \dotfill{} divisão inteiros (floor div)
+}
+
+\subsection{Strings}
+
+\caixa{
+\textbf{Descrição}  \hfill{}  \textbf{Notação} \ \  \\
+\texttt{str(exp)} \\
+\texttt{s1 + s2} \\
+\texttt{s * 4}  \dotfill{} 4 repetições de s\\
+\texttt{s[0]}  \dotfill{} first char\\
+\texttt{s[-1]}  \dotfill{} last char\\
+\texttt{s[3:5]}  \dotfill{} string slicing\\
+\texttt{""" .... """ } \dotfill{} multiline string\\
+\textbf{Chars}\\
+\texttt{\textbackslash{}xDD} \dotfill{} \\
+\texttt{\textbackslash{}uxxxx} \dotfill{} \\
+\texttt{\textbackslash{}Uxxxxxxxx} \dotfill{} \\
+\texttt{\textbackslash{}N\{name\}} \dotfill{} unicode's char name \\
+}
+
+\subsection{Funções  and Lambda}
+
+\subsection{Tuplos}
+
+\begin{Verbatim}
+ponto=(12,12)
+print(ponto[0])
+\end{Verbatim}
+
+\caixa{
+\textbf{Descrição}  \hfill{}  \textbf{Notação} \ \  \\
+\texttt{tuple(exp)} \\
+}
+
+\subsection{Listas}
+\caixa{
+\textbf{Descrição}  \hfill{}  \textbf{Notação} \ \  \\
+list(exp)\\
+reversed(list)\\
+sorted(list)\\
+max(list|dict|tuplos)\\
+\texttt{zip(l1,l2)} \dotfill{}  lista de tuplos\\
+list[3:5] \dotfill{} sub-lista\\
+list[-3:] \dotfill{} últimos 3 \\
+\texttt{[f(a) for a in range(20)]} \dotfill lista em compreensão\\
+\textbf{métodos}\\
+\texttt{l.append(l)}  \dotfill{}   \\
+\texttt{l.remove(val)}  \dotfill{}   \\
+\texttt{del l[i]}  \dotfill{}  delete by index \\
+\texttt{l.insert(1,val)}  \dotfill{} delete by value  \\
+\texttt{l.pop()}  \dotfill{}   \\
+\texttt{l.pop(0)}  \dotfill{}  ... shift \\
+\texttt{len(l)}  \dotfill{}   \\
+\texttt{l.sort()}  \dotfill{}  ordena a lista  \\
+\texttt{l.sort(reverse=True)}  \dotfill{}   \\
+\texttt{l.reverse()}  \dotfill{}   \\
+\texttt{min,max,sum}  \dotfill{}   \\
+\texttt{}  \dotfill{}   \\
+\texttt{}  \dotfill{}   \\
+\texttt{}  \dotfill{}   \\
+}
+
+\subsection{Dicionários}
+
+Chaves: atómicas ou tuplos
+
+\begin{Verbatim}
+en_pt = {"red" : "vermelho", "green" : "verde", "blue" : "azul"}
+en-pt["yellow"]="amarelo"
+print( en_pt )
+print( en_pt["red"])
+\end{Verbatim}
+
+\caixa{
+\textbf{Descrição}  \hfill{}  \textbf{Notação} \ \  \\
+\texttt{dict(exp)} \\
+\texttt{d=\{12:23, 23:33\}} \dotfill{} dic. em extensão\\
+\texttt{d[12]=13} \dotfill{} set a value\\
+\texttt{len(d)} \dotfill{} returns the number of stored pairs\\
+\texttt{del d[k]} \dotfill{}  deletes the key k together with his value\\
+\texttt{k in d} \dotfill{}  True, if a key k exists in the dictionary d\\
+\texttt{k not in d} \dotfill{}  True, if a key k not in in the dictionary d\\
+\texttt{\{a:f(a) for a in range(20)\}} \dotfill dic. em compreensão\\
+\textbf{métodos e funções}\\
+\texttt{d=dict(zip(l1,l2))} \dotfill{} dict from 2 lists\\
+\texttt{is=en\_pt.items()} \dotfill{} lista de tuplos)\\
+\texttt{d=en\_pt.copy()} \dotfill{} dict \\
+\texttt{ks=en\_pt.keys()} \dotfill{} lista das chaves\\
+\texttt{en\_pt.update(d)} \dotfill{} en\_pt plus d\\
+\texttt{vs=en\_pt.values() \dotfill{}  lista das valores}\\
+}
+
+\subsection{Files}
+
+\subsection{Classes, Objectos}
+
+\subsection{Pacotes}
+
+\subsection{alguns design patterns}
+
+\subsection{Expressões regulares}
+
+\subsection{Parsers}
+
+\subsection{Processos}
+
+\subsection{Modulos importantes}
+
+\subsection{ nltk}
+\end{document}
+

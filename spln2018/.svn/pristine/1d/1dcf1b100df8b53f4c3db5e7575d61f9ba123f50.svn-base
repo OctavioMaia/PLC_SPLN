@@ -1,0 +1,11 @@
+import fileinput
+
+dic = {}
+
+for line in fileinput.input():
+	line = line.strip()
+	for word in line.split(' '):
+		dic[word]=dic.get(word,0)+1
+
+for word in sorted(dic):
+	print(dic[word] , word)

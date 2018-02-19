@@ -1,0 +1,7 @@
+Linha 1
+Repetir Linha
+Segunda
+Linha Repetida
+Repetir Linha
+Linha Repetida
+Fim

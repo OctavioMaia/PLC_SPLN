@@ -1,0 +1,27 @@
+Declaração de strings:
+    - pelicas 'Hello World', 
+    - aspas "Hello World",
+    - três aspas """Hello World""";
+
+Operadores:
+    - Concatenação: "a" + "b" = 'ab'
+    - Multiplicação: "a" * 4 = 'aaaa'
+
+- capitalize
+
+- join : str.join(ListaStr)
+    Ex: 
+        a = "asd"
+        a.join(["1","2","3"])
+        '1asd2asd3asd'
+
+- split: str.split(separador)
+    Ex: 
+        str2= "batatas, cenoura, cebolas"
+        str2.split(',')
+        ['batatas','cenoura','cebolas']
+
+- replace: str.repace(str1,str2)
+    Ex:
+        str2.replace(',' , '...')
+        'batatas...cenoura...cebolas'

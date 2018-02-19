@@ -1,0 +1,20 @@
+import sys
+
+>>> open('exemplo.txt','r').read() ou open('exemplo.txt').raad()
+
+'a\nb\nc'
+
+>>> open('exemplo.txt','r').readlines() -> lê uma lista 
+
+['a\n','b\n','c']
+
+>>> open('exemplo.txt','r').readline() -> lê uma linha 
+
+'a\n'
+
+import fileinput
+
+for line in fileinput.input():
+	line=line.strip()
+	print(fileinput.lineno(),line)
+

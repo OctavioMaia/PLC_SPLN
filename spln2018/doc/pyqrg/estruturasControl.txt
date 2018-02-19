@@ -1,0 +1,30 @@
+ESTRUTURAS DE CONTROLO
+
+EXEMPLOS DA AULA:
+
+#ler do stdin e numerar o que foi lido(formato "0 ajajaj")
+flag = True
+res = "" 
+n = 0
+while flag: 
+	stdin = input()
+	if stdin == 'quit':
+		flag = False
+	else:
+		aux =str(n).strip() 
+		res+=aux+" "+stdin+"\n"
+		n+=1
+print(res)
+
+#retirar '\n' de uma string com a funcao readLine()
+for line in open('exemplo,.txt').readLine():
+	line.strip()
+	i=i+1 
+	print(i,line)
+
+
+#retirar '\n' de uma string com a funcao readLines()
+file=open('exemplo,.txt')
+for line in file.readlines():
+	print(line)
+

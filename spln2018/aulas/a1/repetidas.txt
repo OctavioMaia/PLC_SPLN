@@ -1,0 +1,3 @@
+Isto e um bonito texto sobre a ocorrencia de palavras repetidas.
+E muito chato ter coisa repetidas repetidas repetidas.
+A nossa funcao vai retirar a palavra repetidas.

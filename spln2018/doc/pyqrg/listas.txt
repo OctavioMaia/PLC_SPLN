@@ -1,0 +1,34 @@
+----------------LISTAS-----------------
+
+funcao list
+
+	>>> a = list('akaka')
+	output: ['a', 'k', 'a', 'k', 'a']
+
+
+tamanho de lista
+
+	a = [1,2,3]
+
+	>>>len(a)
+	output: 3
+
+pop da lista
+
+	a = ['a', 'k', 'a', 'k', 'a','b']
+	>> a.pop()
+	output: 'b'
+
+adicionar elemento a lista
+
+	a = [1,2,3]
+
+	>>> a.append(4)
+	output: [1,2,3,4]
+
+construir lista por compreensão
+
+	a = [1,2,3]
+	
+	>>> [x.strip('\n') for x in a]
+	output: ['a','b','c']
