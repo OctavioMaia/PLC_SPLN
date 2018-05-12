@@ -1,0 +1,45 @@
+This this DT 0.999514
+installation installation NN 1
+procedure procedure NN 1
+is be VBZ 1
+the the DT 1
+fastest fast JJS 0.5
+and and CC 1
+easiest easy JJS 1
+. . Fp 1
+
+If if IN 1
+you you PRP 1
+do do VBP 0.665591
+not not RB 1
+plan plan VB 0.0285217
+to to TO 0.997897
+modify modify VB 0.97619
+the the DT 1
+code code NN 0.961661
+, , Fc 1
+this this DT 0.999514
+is be VBZ 1
+the the DT 1
+option option NN 0.998634
+you you PRP 1
+should should MD 1
+take take VB 0.903756
+. . Fp 1
+
+It it PRP 1
+is be VBZ 1
+1st_July [??:1/7/??:??.??:??] W 1
+7:30 [??:??/??/??:7.30:??] W 1
+in in IN 0.987107
+New_York_City new_york_city NP 1
+. . Fp 1
+
+We we PRP 1
+need need VBP 0.450999
+to to TO 0.997897
+find find VB 0.791025
+another another DT 1
+plan plan NN 0.895058
+. . Fp 1
+

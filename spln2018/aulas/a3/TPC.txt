@@ -1,0 +1,1 @@
+dado um texto, anotar os nomes próprios (sequencias de palavras começadas por letra maiuscula)

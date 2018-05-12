@@ -1,0 +1,42 @@
+Grupo 1 (Chatbot)
+	- Bruno
+	- Manuel
+
+Grupo 2 (Livros)
+	- Diogo
+	- Pedro
+	- Luís Ferraz
+
+Grupo 3 (Chatbot)
+	- Luís Marques
+
+Grupo 4 (Legendas)
+	- Cláudia
+	- Joana
+
+Grupo 5 (Legendas)
+	- João
+	- Octávio
+	- Alfredo
+
+Grupo 6 (Notícias)
+	- Ricardo
+	- Tiago
+	- Luís
+
+Grupo 7 (Notícias)
+	- Flávia
+	- José Carlos
+	- Eduardo
+
+Grupo 8 (Rimas)
+	- Samuel
+	- Bruno
+
+Grupo 9 (Chatbot)
+	- Francisco
+
+
+
+
+

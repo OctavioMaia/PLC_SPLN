@@ -1,0 +1,2166 @@
+
+    <html>
+    <head>
+        <meta charset="UTF8"/>
+        <title>Interação de Personagens</title>
+        <script>
+        $(window).on("load resize ", function(){
+            var scrollWidth = $('.tbl-content').width() - $('.tbl-content table').width();
+         $('.tbl-header').css({'padding-right':scrollWidth});
+        })
+        </script>
+        <style>
+                        h1{
+            font-size: 30px;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 300;
+            text-align: center;
+            margin-bottom: 15px;
+            }
+            table{
+            width:100%;
+            
+            }
+            .tbl-header{
+            background-color: rgba(255,255,255,0.3);
+            }
+            .tbl-content{
+            height:300px;
+            overflow-x:auto;
+            margin-top: 0px;
+            border: 1px solid rgba(255,255,255,0.3);
+            }
+            th{
+            padding: 20px 15px;
+            text-align: left;
+            font-weight: 500;
+            font-size: 12px;
+            color: #fff;
+            text-transform: uppercase;
+            }
+            td{
+            padding: 15px;
+            text-align: left;
+            vertical-align:middle;
+            font-weight: 300;
+            font-size: 12px;
+            color: #fff;
+            border-bottom: solid 1px rgba(255,255,255,0.1);
+            }
+
+
+            /* demo styles */
+
+            @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+            body{
+            background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+            background: linear-gradient(to right, #25c481, #25b7c4);
+            font-family: 'Roboto', sans-serif;
+            }
+            section{
+            margin: 50px;
+            }
+            /* for custom scrollbar for webkit browser*/
+
+            ::-webkit-scrollbar {
+                width: 6px;
+            } 
+            ::-webkit-scrollbar-track {
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+            } 
+            ::-webkit-scrollbar-thumb {
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <h1> Interação de Personagens do Harry poter</h1>
+            <div class="tbl-header">
+            <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+            <tr>
+                <th>Personagem</th> 
+                <th >interações</th>
+            </tr>
+            </thead>
+            </table>
+            </div>
+            <div class="tbl-content">
+                <table cellpadding="0" cellspacing="0" border="0">
+                <tbody>
+
+<tr>
+<td> Potter </td>
+<td>Câmara dos Segredos:1</td>
+<td>Dobby:7</td>
+<td>Senhor do Mal:1</td>
+<td>Weasley:2</td>
+<td>McGonagall:2</td>
+<td>Lockhart:1</td>
+<td>Nick:1</td>
+<td>Malfoy:3</td>
+<td>Aquele:1</td>
+<td>Miss Granger:1</td>
+<td>Miss:1</td>
+<td>Snape:1</td>
+<td>Ernie:1</td>
+<td>Potter:2</td>
+<td>Peeves:2</td>
+</tr>
+<tr>
+<td> Harry Potter </td>
+<td>Chamber:1</td>
+<td>Secrets:1</td>
+<td>Aquele:1</td>
+<td>Hogwarts:2</td>
+<td>Dobby:4</td>
+<td>Ron:1</td>
+<td>Nimbus:1</td>
+<td>Malfoy:1</td>
+<td>Nem:1</td>
+<td>Potter:1</td>
+<td>Tom Riddle:1</td>
+<td>Riddle:2</td>
+<td>Eles:1</td>
+</tr>
+<tr>
+<td> Chamber </td>
+<td>Secrets:1</td>
+</tr>
+<tr>
+<td> Editorial Presença </td>
+<td>Lisboa:1</td>
+</tr>
+<tr>
+<td> Lisboa </td>
+<td>Janeiro:2</td>
+</tr>
+<tr>
+<td> Textype </td>
+<td>Artes Gráficas:1</td>
+<td>Lda:1</td>
+</tr>
+<tr>
+<td> Artes Gráficas </td>
+<td>Lda:2</td>
+</tr>
+<tr>
+<td> Guide </td>
+<td>Artes Gráficas:1</td>
+<td>Lda:1</td>
+</tr>
+<tr>
+<td> Brasil </td>
+<td>Editorial Presença:1</td>
+<td>Ron:1</td>
+</tr>
+<tr>
+<td> Privet Drive </td>
+<td>Dursleys:1</td>
+</tr>
+<tr>
+<td> Dursley </td>
+<td>Harry:1</td>
+<td>Riddle:1</td>
+<td>Hagrid:1</td>
+</tr>
+<tr>
+<td> Harry </td>
+<td>Está:1</td>
+<td>Verão:1</td>
+<td>Hedwig:2</td>
+<td>Aprendeste:1</td>
+<td>Vernon:1</td>
+<td>Dudley:2</td>
+<td>Há:1</td>
+<td>Não:7</td>
+<td>Por:3</td>
+<td>Eu:6</td>
+<td>Mas:6</td>
+<td>Harry:8</td>
+<td>Quero:1</td>
+<td>Dobby:4</td>
+<td>Acabas:1</td>
+<td>Dá:1</td>
+<td>George:7</td>
+<td>Já:2</td>
+<td>Ron:63</td>
+<td>Ele:2</td>
+<td>Lucius Malfoy:1</td>
+<td>Privet Drive:1</td>
+<td>Entra:1</td>
+<td>Fred:5</td>
+<td>Gilderoy Lockhart:1</td>
+<td>Dursleys:1</td>
+<td>Esta:1</td>
+<td>Ginny:3</td>
+<td>Expresso:1</td>
+<td>Percy:1</td>
+<td>Se:3</td>
+<td>Floo:1</td>
+<td>Draco:2</td>
+<td>Hagrid:1</td>
+<td>Hermione:28</td>
+<td>Lockhart:14</td>
+<td>Flourish:1</td>
+<td>Blotts:1</td>
+<td>Weasley:2</td>
+<td>Hogwarts:1</td>
+<td>Aqui:1</td>
+<td>Mesmo:1</td>
+<td>Gryffindor:1</td>
+<td>Professora:1</td>
+<td>Dumbledore:8</td>
+<td>Neville:2</td>
+<td>Conheço:1</td>
+<td>Harry Potter:1</td>
+<td>Colin Creevey:1</td>
+<td>Colin:1</td>
+<td>Porque:2</td>
+<td>Disse:1</td>
+<td>Só:1</td>
+<td>Nick:1</td>
+<td>Funcionou:1</td>
+<td>Sir Patrick:1</td>
+<td>Filch:2</td>
+<td>Mrs:2</td>
+<td>Snape:1</td>
+<td>Tu:1</td>
+<td>Slytherin:2</td>
+<td>Eles:1</td>
+<td>Queríamos:1</td>
+<td>Seria:1</td>
+<td>Oliver:1</td>
+<td>Com:1</td>
+<td>Deixem:1</td>
+<td>Imagino:1</td>
+<td>Uma:1</td>
+<td>Excelente:1</td>
+<td>Que:1</td>
+<td>Malfoy:4</td>
+<td>Quando:1</td>
+<td>Quer:1</td>
+<td>Aposto:1</td>
+<td>Justin:2</td>
+<td>Estou:2</td>
+<td>Ela:2</td>
+<td>Gostava:1</td>
+<td>Er:1</td>
+<td>Terias:1</td>
+<td>Nós:1</td>
+<td>Goyle:2</td>
+<td>Crabbe:1</td>
+<td>Vamos:1</td>
+<td>Madam Pomfrey:1</td>
+<td>Isto:1</td>
+<td>Essa:1</td>
+<td>Junho:1</td>
+<td>Nessa:1</td>
+<td>Muggles:1</td>
+<td>Aquela:1</td>
+<td>Ravenclaw:1</td>
+<td>Penelope:1</td>
+<td>Soubeste:1</td>
+<td>Dean:2</td>
+<td>Ernie:1</td>
+<td>Hannah:1</td>
+<td>Podemos:1</td>
+<td>Fang:2</td>
+<td>Também:1</td>
+<td>Ouve:1</td>
+<td>Seja:1</td>
+<td>Canos:1</td>
+<td>Acho:1</td>
+<td>Ao:1</td>
+<td>Riddle:5</td>
+<td>Pela:1</td>
+<td>Ninguém:1</td>
+<td>Voldemort:1</td>
+<td>Fawkes:1</td>
+<td>Alguém:1</td>
+<td>Basilisk:1</td>
+<td>Desde:1</td>
+<td>Bill:1</td>
+<td>Murta:1</td>
+<td>Na:1</td>
+<td>Bem:1</td>
+<td>Estás:1</td>
+</tr>
+<tr>
+<td> Se </td>
+<td>Murta:1</td>
+</tr>
+<tr>
+<td> Vernon </td>
+<td>Sei:1</td>
+<td>Dudley:2</td>
+<td>Devemos:1</td>
+<td>Harry:2</td>
+<td>Os:1</td>
+<td>Lembra:1</td>
+<td>Conte:1</td>
+<td>Petúnia:3</td>
+<td>Ele:1</td>
+</tr>
+<tr>
+<td> Petúnia </td>
+<td>Harry:1</td>
+<td>Lá:1</td>
+<td>Dudley:1</td>
+</tr>
+<tr>
+<td> Dursleys </td>
+<td>Dudley:2</td>
+<td>Muggles:1</td>
+<td>Verão:1</td>
+<td>Maiorca:1</td>
+<td>Harry:1</td>
+</tr>
+<tr>
+<td> Dudley </td>
+<td>Vernon:1</td>
+<td>Harry:1</td>
+<td>Ron:1</td>
+<td>Por:1</td>
+</tr>
+<tr>
+<td> Smeltings </td>
+<td>Vernon:1</td>
+<td>Dudley:1</td>
+</tr>
+<tr>
+<td> Esqueceste </td>
+<td>Harry:1</td>
+</tr>
+<tr>
+<td> Mrs </td>
+<td>Vejamos:1</td>
+<td>Lockhart:1</td>
+<td>Para:1</td>
+<td>Mas:2</td>
+<td>Weasley:1</td>
+<td>Floo:1</td>
+<td>Rua:1</td>
+<td>Fred:1</td>
+<td>George:1</td>
+<td>As:1</td>
+<td>Bayliss:1</td>
+<td>Desta:1</td>
+<td>Harry:1</td>
+<td>Colin:1</td>
+<td>Egipto:1</td>
+<td>Bill:1</td>
+</tr>
+<tr>
+<td> Mr </td>
+<td>Mrs:8</td>
+<td>Havia:2</td>
+<td>Qual Harry:1</td>
+<td>Correu:1</td>
+<td>Harry:1</td>
+<td>Draco:2</td>
+<td>Mr:2</td>
+<td>Vamos:1</td>
+<td>Tínhamos:1</td>
+<td>As:1</td>
+<td>São:1</td>
+<td>Ron:1</td>
+<td>Dumbledore:2</td>
+<td>Mas:1</td>
+<td>Lockhart:2</td>
+<td>Weasley:1</td>
+<td>Miss Granger:1</td>
+<td>Egipto:1</td>
+<td>Bill:1</td>
+<td>Quem:1</td>
+<td>Não:1</td>
+<td>Que:1</td>
+</tr>
+<tr>
+<td> Não </td>
+<td>Draco:1</td>
+<td>Harry Potter:2</td>
+<td>Lockhart:1</td>
+<td>Hogwarts:1</td>
+<td>Harry:2</td>
+<td>Colin:1</td>
+<td>Goyle:1</td>
+<td>Hagrid:1</td>
+<td>Azkaban:1</td>
+<td>Murta Queixosa:1</td>
+<td>Ron:1</td>
+<td>Riddle:1</td>
+</tr>
+<tr>
+<td> Verão </td>
+<td>Harry:1</td>
+<td>Ron:1</td>
+<td>Hogwarts:1</td>
+</tr>
+<tr>
+<td> Escola de Magia </td>
+<td>Feitiçaria:1</td>
+<td>Feitiçaria de Hogwarts:2</td>
+</tr>
+<tr>
+<td> Hogwarts </td>
+<td>Dursleys:1</td>
+<td>Quidditch:1</td>
+<td>Harry:4</td>
+<td>Hermione:2</td>
+<td>Quero:1</td>
+<td>Hagrid:1</td>
+<td>Privet:1</td>
+<td>Estação de King:1</td>
+<td>Cross:1</td>
+<td>Lee:1</td>
+<td>Crabbe:1</td>
+<td>Goyle:1</td>
+<td>Bill:1</td>
+<td>Dudley:1</td>
+<td>Não:1</td>
+<td>Dumbledore:1</td>
+<td>Olhou:1</td>
+<td>Weasley:1</td>
+<td>Ron:1</td>
+<td>Fred:1</td>
+<td>George:1</td>
+<td>Ginny:1</td>
+</tr>
+<tr>
+<td> Snape </td>
+<td>Harry:6</td>
+<td>Infelizmente:1</td>
+<td>Natal:1</td>
+<td>Slytherin:1</td>
+<td>Acho:1</td>
+<td>Todos:1</td>
+<td>Lockhart:2</td>
+<td>Mr:1</td>
+<td>MalLoy:1</td>
+<td>Snape:1</td>
+<td>Não:1</td>
+</tr>
+<tr>
+<td> Hagrid </td>
+<td>Harry:5</td>
+<td>Vemo:1</td>
+<td>Hogwarts:2</td>
+<td>Draco:1</td>
+<td>Se:1</td>
+<td>Ron:4</td>
+<td>Hagrid:1</td>
+<td>Câmara dos Segredos:3</td>
+<td>Rua:1</td>
+<td>Tenho:1</td>
+<td>Soubeste:1</td>
+<td>Fudge:1</td>
+<td>Dumbledore:3</td>
+<td>Levar:1</td>
+<td>Sai:1</td>
+<td>Fang:1</td>
+<td>Aragog:1</td>
+<td>Slytherin:1</td>
+<td>Riddle:1</td>
+</tr>
+<tr>
+<td> Quidditch </td>
+<td>Harry:4</td>
+<td>Malfoy:1</td>
+<td>Wood:4</td>
+<td>Vamos:1</td>
+<td>Colin:1</td>
+<td>São:1</td>
+<td>Flin:1</td>
+</tr>
+<tr>
+<td> Muggles </td>
+<td>Fred:1</td>
+<td>Mas:1</td>
+<td>Mr:2</td>
+<td>Arthur Weasley:1</td>
+<td>Hagrid:1</td>
+<td>Londres:1</td>
+<td>Justin:1</td>
+<td>Hogwarts:1</td>
+</tr>
+<tr>
+<td> Hedwig </td>
+<td>Ron:1</td>
+<td>Harry:2</td>
+</tr>
+<tr>
+<td> Lord Voldemort </td>
+<td>Salazar Slytherin:1</td>
+<td>Ginny:1</td>
+</tr>
+<tr>
+<td> Como </td>
+<td>Pais Natais:1</td>
+<td>Ron:1</td>
+</tr>
+<tr>
+<td> Eu </td>
+<td>Arthur:1</td>
+<td>Ron:1</td>
+<td>Eton:1</td>
+<td>Harry:1</td>
+<td>Lockhart:1</td>
+<td>Miss Granger:1</td>
+</tr>
+<tr>
+<td> Ron Weasley </td>
+<td>Hermione Granger:1</td>
+</tr>
+<tr>
+<td> Ron </td>
+<td>Hermione:48</td>
+<td>Porque:3</td>
+<td>Tu:4</td>
+<td>Foi:2</td>
+<td>Viemos:1</td>
+<td>Fred:8</td>
+<td>Harry:23</td>
+<td>George:5</td>
+<td>Acelera Fred:1</td>
+<td>Deixa:1</td>
+<td>Eu:3</td>
+<td>Ele:1</td>
+<td>Mãe:1</td>
+<td>Vamos:1</td>
+<td>Não:6</td>
+<td>Mrs:2</td>
+<td>Percy:5</td>
+<td>Patético:1</td>
+<td>Estamos:1</td>
+<td>Senão:1</td>
+<td>Mr:1</td>
+<td>Malfoy:4</td>
+<td>Ginny:4</td>
+<td>Dursleys:1</td>
+<td>Nunca:1</td>
+<td>Hedwig:1</td>
+<td>Olha:1</td>
+<td>Muito:1</td>
+<td>Weasley:1</td>
+<td>Gryffindor:2</td>
+<td>Há:1</td>
+<td>Neville:1</td>
+<td>Lockhart:5</td>
+<td>Reza:1</td>
+<td>Sangue:2</td>
+<td>Hagrid:3</td>
+<td>Encontrei:1</td>
+<td>Aposto:1</td>
+<td>Ouvir:1</td>
+<td>Mas:2</td>
+<td>Bem:1</td>
+<td>Com:1</td>
+<td>Justin:1</td>
+<td>Justin Finch:1</td>
+<td>Se:1</td>
+<td>Murta Queixosa:1</td>
+<td>Só:1</td>
+<td>Costumo:1</td>
+<td>Está:1</td>
+<td>Nessa:1</td>
+<td>Sabem:1</td>
+<td>Que:1</td>
+<td>Mexe:1</td>
+<td>Falas:1</td>
+<td>Língua:1</td>
+<td>Sabes:1</td>
+<td>Crabbe:3</td>
+<td>Cada:1</td>
+<td>Esquecemo:1</td>
+<td>Agora:1</td>
+<td>Ainda:1</td>
+<td>Murta:1</td>
+<td>Cinquenta:1</td>
+<td>Talvez:2</td>
+<td>Sabemos:1</td>
+<td>Riddle:2</td>
+<td>Câmara dos Segredos:1</td>
+<td>Olá:1</td>
+<td>Mantemos:1</td>
+<td>Dean Seamas:1</td>
+<td>São:1</td>
+<td>McGonagall:1</td>
+<td>Fudge:1</td>
+<td>Dean:2</td>
+<td>Podemos:1</td>
+<td>Fang:1</td>
+<td>Estou:1</td>
+<td>Oh:1</td>
+<td>Ela:1</td>
+<td>Vá:1</td>
+<td>Vai:1</td>
+<td>Nós:1</td>
+<td>Voltar:1</td>
+<td>Achas:1</td>
+<td>Acho:1</td>
+<td>Diz:1</td>
+<td>Fica:1</td>
+<td>Já:1</td>
+<td>Houve:1</td>
+<td>Dumbledore:2</td>
+</tr>
+<tr>
+<td> Hermione </td>
+<td>Percy:1</td>
+<td>Quero:1</td>
+<td>Weasley:1</td>
+<td>Vampiros:1</td>
+<td>Lockhart:1</td>
+<td>Harry:6</td>
+<td>Leste:1</td>
+<td>Hagrid:1</td>
+<td>Entraram:1</td>
+<td>Ron:8</td>
+<td>Peeves:1</td>
+<td>Mrs:1</td>
+<td>Que:1</td>
+<td>Eu:2</td>
+<td>Seria:1</td>
+<td>Só:1</td>
+<td>Tão:1</td>
+<td>Colin:1</td>
+<td>Dobby:1</td>
+<td>Ou:1</td>
+<td>Snape:1</td>
+<td>Millicent Bulstrode:1</td>
+<td>Ele:1</td>
+<td>Nós:1</td>
+<td>Malfoy:1</td>
+<td>Goyle:1</td>
+<td>Crabbe:1</td>
+<td>Vamos:1</td>
+<td>Sabemos:1</td>
+<td>Canos:1</td>
+<td>Ravenclaw:1</td>
+<td>Tu:1</td>
+<td>Dumbledore:1</td>
+<td>Lucius Malfoy:1</td>
+<td>Fred:1</td>
+<td>George:1</td>
+<td>Ginny:1</td>
+</tr>
+<tr>
+<td> Draco Malfoy </td>
+<td>Slytherin:1</td>
+<td>Harry:1</td>
+<td>Ernie:1</td>
+<td>Ron:1</td>
+</tr>
+<tr>
+<td> Dobby </td>
+<td>Dobby:3</td>
+<td>Nunca:1</td>
+<td>Harry Potter:3</td>
+<td>Harry:7</td>
+<td>Dursleys:1</td>
+<td>Tão:1</td>
+<td>Hermione:1</td>
+<td>Não:1</td>
+</tr>
+<tr>
+<td> Quem </td>
+<td>Dean Thomas:1</td>
+</tr>
+<tr>
+<td> Nunca </td>
+<td>Hagrid:1</td>
+</tr>
+<tr>
+<td> Isto </td>
+<td>Dursleys:1</td>
+<td>Gryffindor:1</td>
+</tr>
+<tr>
+<td> Senhor do Mal </td>
+<td>Mr:1</td>
+</tr>
+<tr>
+<td> Mas </td>
+<td>Percy:1</td>
+<td>Muggles:1</td>
+<td>Ron:1</td>
+</tr>
+<tr>
+<td> Feitiçaria de Hogwarts </td>
+<td>Dobby:1</td>
+</tr>
+<tr>
+<td> Um </td>
+<td>Hermione:1</td>
+</tr>
+<tr>
+<td> Vol </td>
+<td>Quem:1</td>
+</tr>
+<tr>
+<td> Dumbledore </td>
+<td>Dumbledore:1</td>
+<td>Hogwarts:1</td>
+<td>Mas:2</td>
+<td>Filch:1</td>
+<td>Ah:1</td>
+<td>Era:1</td>
+<td>Madam Sprout:1</td>
+<td>Harry:4</td>
+<td>Ron:3</td>
+<td>Dean Thomas:1</td>
+<td>Minerva:1</td>
+<td>Câmara dos Segredos:1</td>
+<td>Eu:3</td>
+<td>Cornelius Fudge:1</td>
+<td>Mr:1</td>
+<td>Fudge:1</td>
+<td>Hagrid:1</td>
+<td>Fang:1</td>
+<td>Riddle:2</td>
+<td>Foi:1</td>
+<td>Porquê:1</td>
+<td>Gilderoy:1</td>
+<td>Houve:1</td>
+<td>Posso:1</td>
+</tr>
+<tr>
+<td> Conte </td>
+<td>Petúnia:1</td>
+</tr>
+<tr>
+<td> Conduziu </td>
+<td>Mason:1</td>
+</tr>
+<tr>
+<td> After </td>
+<td>Eight:1</td>
+</tr>
+<tr>
+<td> Razoáveis </td>
+<td>Feitiçaria de Menores:1</td>
+</tr>
+<tr>
+<td> Tenho </td>
+<td>Minerva:1</td>
+</tr>
+<tr>
+<td> Weasley </td>
+<td>Ron:1</td>
+<td>Floo:1</td>
+<td>Harry:2</td>
+<td>Rua:1</td>
+<td>Lockhart:1</td>
+<td>Malfoy:3</td>
+<td>McGonagall:3</td>
+<td>Com:1</td>
+<td>Potter:1</td>
+<td>Miss Granger:2</td>
+<td>Mrs:1</td>
+<td>Agosto:1</td>
+<td>Colin:1</td>
+<td>Finnigan:1</td>
+<td>Gryffindor:1</td>
+<td>Gabinete de Mau Uso dos Utensílios:1</td>
+<td>Ministério:1</td>
+<td>Mr:1</td>
+<td>Lee Jordan:1</td>
+<td>Não:1</td>
+<td>Lee:1</td>
+</tr>
+<tr>
+<td> Fred </td>
+<td>George:29</td>
+<td>Mas:2</td>
+<td>Harry:3</td>
+<td>Lucius Malfoy:1</td>
+<td>Percy:2</td>
+<td>Mrs:1</td>
+<td>Aposto:1</td>
+<td>Diagon:1</td>
+<td>Mr:1</td>
+<td>Lee Jordan:1</td>
+<td>Não:1</td>
+<td>George Weasley:3</td>
+<td>Gryffindor:1</td>
+<td>Ela:1</td>
+<td>Ginny:3</td>
+</tr>
+<tr>
+<td> George </td>
+<td>Sai:1</td>
+<td>Harry:1</td>
+<td>Então:1</td>
+<td>Ele:1</td>
+<td>Mas:1</td>
+<td>Em Ottery:1</td>
+<td>Percy:1</td>
+<td>Mr:1</td>
+<td>Hogwarts:1</td>
+<td>Lee:1</td>
+<td>Lee Jordan:1</td>
+<td>Cleansweep Fives:1</td>
+<td>Slytherin:1</td>
+<td>Acabei:1</td>
+<td>Marcus:1</td>
+<td>Ginny:3</td>
+<td>Sol:1</td>
+<td>Expresso:1</td>
+</tr>
+<tr>
+<td> Porque </td>
+<td>Muggles:1</td>
+<td>Harry:1</td>
+<td>Ron:1</td>
+</tr>
+<tr>
+<td> Ministério </td>
+<td>Ron:1</td>
+<td>Tu:1</td>
+<td>Mr:1</td>
+</tr>
+<tr>
+<td> Sai </td>
+<td>Harry:1</td>
+</tr>
+<tr>
+<td> Ele </td>
+<td>Lockhart:1</td>
+<td>Harry:1</td>
+<td>Quidditch:1</td>
+</tr>
+<tr>
+<td> Weasleys </td>
+<td>Harry:2</td>
+</tr>
+<tr>
+<td> Então </td>
+<td>Ron:1</td>
+</tr>
+<tr>
+<td> Já </td>
+<td>Dumbledore:1</td>
+</tr>
+<tr>
+<td> Malfoy </td>
+<td>Harry:11</td>
+<td>Ele:1</td>
+<td>George:1</td>
+<td>Mr:1</td>
+<td>Nem:1</td>
+<td>Ron:5</td>
+<td>Com:1</td>
+<td>Era:1</td>
+<td>Quidditch:1</td>
+<td>Mas:1</td>
+<td>Hermione:1</td>
+<td>Argus Filch:1</td>
+<td>Snape:2</td>
+<td>Potter:1</td>
+<td>Goyle:1</td>
+<td>Crabbe:1</td>
+<td>Eu:1</td>
+<td>Ultimamente:1</td>
+<td>Ninguém:1</td>
+<td>Weasley:1</td>
+<td>Ainda:1</td>
+<td>Percy:1</td>
+<td>Hagrid:1</td>
+<td>Professor:1</td>
+<td>Aposto:1</td>
+</tr>
+<tr>
+<td> Lucius Malfoy </td>
+<td>Fred:1</td>
+<td>Câmara dos Segredos:1</td>
+<td>Membro do Conselho Directivo:1</td>
+<td>Se:1</td>
+<td>Dumbledore:1</td>
+</tr>
+<tr>
+<td> Percy </td>
+<td>Verão:1</td>
+<td>Fred:4</td>
+<td>Mr:1</td>
+<td>Mrs:1</td>
+<td>George:2</td>
+<td>Harry:2</td>
+<td>Ron:4</td>
+<td>Não:1</td>
+<td>Ela:1</td>
+<td>Vá:1</td>
+</tr>
+<tr>
+<td> Departamento </td>
+<td>Ron:1</td>
+</tr>
+<tr>
+<td> Muggle </td>
+<td>Harry:1</td>
+</tr>
+<tr>
+<td> Sim </td>
+<td>Madam Pomfrey:1</td>
+</tr>
+<tr>
+<td> Vamos </td>
+<td>Harry:1</td>
+<td>Draco:1</td>
+<td>Mr:1</td>
+<td>Lockhart:1</td>
+<td>Mcmillan:1</td>
+<td>Miss Fawcett:1</td>
+<td>Madam Pomfrey:1</td>
+<td>Murta:1</td>
+<td>McGonagall:1</td>
+<td>Defesa:1</td>
+</tr>
+<tr>
+<td> Bill </td>
+<td>Charlie:1</td>
+<td>Percy:1</td>
+<td>Egipto:1</td>
+</tr>
+<tr>
+<td> Charlie </td>
+<td>Percy:1</td>
+<td>Hogwarts:1</td>
+</tr>
+<tr>
+<td> Entra </td>
+<td>Harry:1</td>
+</tr>
+<tr>
+<td> Hora </td>
+<td>Estás:1</td>
+</tr>
+<tr>
+<td> Arthur </td>
+<td>Temos:1</td>
+<td>Mrs:3</td>
+<td>Weasley:1</td>
+<td>Floo:1</td>
+<td>Hagrid:1</td>
+</tr>
+<tr>
+<td> Ginny </td>
+<td>Ron:4</td>
+<td>Harry:3</td>
+<td>Não:1</td>
+<td>Mrs:2</td>
+<td>Percy:2</td>
+<td>Câmara:1</td>
+<td>Temos:1</td>
+<td>Riddle:1</td>
+<td>Já:1</td>
+<td>Onde:1</td>
+<td>Lockhart:2</td>
+<td>Ginny:3</td>
+<td>Eu:1</td>
+<td>Estava:1</td>
+<td>Mr:2</td>
+<td>Bem:1</td>
+<td>Foi:1</td>
+</tr>
+<tr>
+<td> Vejamos </td>
+<td>Lockhart:1</td>
+</tr>
+<tr>
+<td> Lockhart </td>
+<td>Ginny:1</td>
+<td>Ron:4</td>
+<td>Harry:4</td>
+<td>Então:1</td>
+<td>Nunca:1</td>
+<td>Passei:1</td>
+<td>Justin:1</td>
+<td>Leva:1</td>
+<td>Vamos:1</td>
+<td>Hagrid:1</td>
+<td>Se:1</td>
+<td>Mmm:1</td>
+<td>Seis:1</td>
+<td>Que:1</td>
+<td>Devo:1</td>
+<td>Hermione:2</td>
+<td>Eu:3</td>
+<td>Ele:1</td>
+<td>Sim:1</td>
+<td>Quando:2</td>
+<td>Snape:2</td>
+<td>Draco:1</td>
+<td>Ups:1</td>
+<td>Professor:1</td>
+<td>Eles:1</td>
+<td>MalLoy:1</td>
+<td>Não:1</td>
+<td>Preciso:1</td>
+<td>Câmara:1</td>
+<td>Sprout:1</td>
+<td>Espantoso:1</td>
+</tr>
+<tr>
+<td> Gilderoy Lockhart </td>
+<td>Ordem de Merlim:1</td>
+<td>Ordem:1</td>
+</tr>
+<tr>
+<td> Eles </td>
+<td>Harry:1</td>
+<td>Dudley:1</td>
+</tr>
+<tr>
+<td> Experimentais </td>
+<td>Deus:1</td>
+</tr>
+<tr>
+<td> Deus </td>
+<td>Harry Potter:1</td>
+<td>Ron:1</td>
+</tr>
+<tr>
+<td> Molly </td>
+<td>Mr:1</td>
+<td>Harry:1</td>
+</tr>
+<tr>
+<td> Artur </td>
+<td>Mrs:1</td>
+</tr>
+<tr>
+<td> Para </td>
+<td>Câmara dos Segredos:1</td>
+</tr>
+<tr>
+<td> Chudley Cannons </td>
+<td>Ron:1</td>
+</tr>
+<tr>
+<td> Martin Miggs </td>
+<td>Muggle:1</td>
+</tr>
+<tr>
+<td> Scabbers </td>
+<td>De:1</td>
+</tr>
+<tr>
+<td> Flourish </td>
+<td>Blotts:5</td>
+</tr>
+<tr>
+<td> Toca </td>
+<td>Ron:1</td>
+<td>Floo:1</td>
+</tr>
+<tr>
+<td> Estação de King </td>
+<td>Cross:1</td>
+</tr>
+<tr>
+<td> Cross </td>
+<td>Harry:1</td>
+</tr>
+<tr>
+<td> Livro Padrão de Feitiços </td>
+<td>Grau:1</td>
+<td>Miranda Goshawk:1</td>
+</tr>
+<tr>
+<td> Grau </td>
+<td>Miranda Goshawk:1</td>
+</tr>
+<tr>
+<td> Uma Fada Carpideira </td>
+<td>Gilderoy Lockhart:1</td>
+</tr>
+<tr>
+<td> Vampiros </td>
+<td>Gilderoy Lockhart:2</td>
+<td>Ron:1</td>
+<td>Lockhart:1</td>
+</tr>
+<tr>
+<td> Bruxas </td>
+<td>Gilderoy Lockhart:1</td>
+</tr>
+<tr>
+<td> Duendes </td>
+<td>Gilderoy Lockhart:1</td>
+</tr>
+<tr>
+<td> Lobisomens </td>
+<td>Gilderoy Lockhart:1</td>
+</tr>
+<tr>
+<td> Ano </td>
+<td>Abominável Homem das Neves:1</td>
+<td>Gilderoy:1</td>
+<td>Abominável Homem:1</td>
+</tr>
+<tr>
+<td> Abominável Homem das Neves </td>
+<td>Gilderoy:1</td>
+</tr>
+<tr>
+<td> Os </td>
+<td>Lockhart:1</td>
+<td>Hagrid:1</td>
+<td>Slytherin:1</td>
+<td>Conselho:1</td>
+</tr>
+<tr>
+<td> Espero </td>
+<td>Ginny:1</td>
+<td>Ron:1</td>
+</tr>
+<tr>
+<td> Em </td>
+<td>Hermione:1</td>
+</tr>
+<tr>
+<td> Estamos </td>
+<td>Câmara dos Segredos:1</td>
+</tr>
+<tr>
+<td> Feitiçaria Vulgares </td>
+<td>George:1</td>
+</tr>
+<tr>
+<td> Roménia </td>
+<td>Bill:1</td>
+<td>Egipto:1</td>
+</tr>
+<tr>
+<td> Egipto </td>
+<td>Bill:1</td>
+</tr>
+<tr>
+<td> Gringotts </td>
+<td>Harry:1</td>
+<td>Malfoy:1</td>
+</tr>
+<tr>
+<td> Cinco </td>
+<td>Lockhart:1</td>
+<td>Ginny:1</td>
+</tr>
+<tr>
+<td> Galeões </td>
+<td>Leões:1</td>
+<td>Janotas:1</td>
+<td>Muggles:1</td>
+</tr>
+<tr>
+<td> Leões </td>
+<td>Janotas:1</td>
+<td>Muggles:1</td>
+<td>Galeão:1</td>
+</tr>
+<tr>
+<td> Janotas </td>
+<td>Muggles:1</td>
+</tr>
+<tr>
+<td> Floo </td>
+<td>Ron:1</td>
+</tr>
+<tr>
+<td> Desculpa </td>
+<td>Harry:1</td>
+</tr>
+<tr>
+<td> Draco </td>
+<td>Todos:1</td>
+<td>Flint:1</td>
+</tr>
+<tr>
+<td> Dumbledor </td>
+<td>Gryffindor:1</td>
+</tr>
+<tr>
+<td> Gryffindor </td>
+<td>Hufflepuff:2</td>
+<td>Ravenclaw:2</td>
+<td>Slytherin:3</td>
+<td>McGonagall:1</td>
+<td>Seamus Finnigan:1</td>
+<td>Dean:1</td>
+<td>Harry:6</td>
+<td>Ron:3</td>
+<td>Percy:1</td>
+<td>Adrian Pucey:1</td>
+<td>Não:1</td>
+<td>Riddle:1</td>
+<td>Quidditch:1</td>
+<td>Dumbledore:1</td>
+</tr>
+<tr>
+<td> Arthur Weasley </td>
+<td>Era Mr:1</td>
+<td>Muggles:1</td>
+</tr>
+<tr>
+<td> Borgin </td>
+<td>Mr:2</td>
+<td>Burkes:1</td>
+</tr>
+<tr>
+<td> Sem </td>
+<td>Harry:1</td>
+<td>Dumbledore:1</td>
+</tr>
+<tr>
+<td> Todos </td>
+<td>Slytherin:1</td>
+<td>Draco:1</td>
+</tr>
+<tr>
+<td> Estou </td>
+<td>Borgin:1</td>
+<td>Justin:1</td>
+</tr>
+<tr>
+<td> Bom </td>
+<td>Mr:1</td>
+</tr>
+<tr>
+<td> Rua </td>
+<td>Harry:1</td>
+<td>Hagrid:1</td>
+</tr>
+<tr>
+<td> Vemo </td>
+<td>Hogwarts:1</td>
+</tr>
+<tr>
+<td> Ah </td>
+<td>Lucius Malfoy:1</td>
+<td>Ron:1</td>
+<td>Malfoy:1</td>
+</tr>
+<tr>
+<td> Jordan </td>
+<td>Ginny:1</td>
+</tr>
+<tr>
+<td> Grangers </td>
+<td>Caldeirão Escoante:1</td>
+<td>Mrs:1</td>
+</tr>
+<tr>
+<td> Caldeirão Escoante </td>
+<td>Harry:1</td>
+<td>Weasley:1</td>
+</tr>
+<tr>
+<td> Chudley Cannon </td>
+<td>Equipamento de Quidditch:1</td>
+</tr>
+<tr>
+<td> Qualidade </td>
+<td>Hermione:1</td>
+</tr>
+<tr>
+<td> Jogos de Feitiçaria de Gambol </td>
+<td>Japes:1</td>
+</tr>
+<tr>
+<td> Lee Jordan </td>
+<td>Inspirado:1</td>
+<td>Não:1</td>
+</tr>
+<tr>
+<td> Hoje </td>
+<td>Mandrágoras:1</td>
+</tr>
+<tr>
+<td> Que </td>
+<td>Malfoy:1</td>
+<td>Potter:1</td>
+</tr>
+<tr>
+<td> Defesa </td>
+<td>Escola de Magia:1</td>
+<td>Ron:1</td>
+</tr>
+<tr>
+<td> Lucius </td>
+<td>Mr:1</td>
+<td>Dumbledore:4</td>
+<td>Fudge:1</td>
+</tr>
+<tr>
+<td> Muito </td>
+<td>Mr:1</td>
+</tr>
+<tr>
+<td> Transfiguração </td>
+<td>Principiantes:1</td>
+<td>Dumbledore:1</td>
+</tr>
+<tr>
+<td> Chega </td>
+<td>Fred:1</td>
+<td>George:1</td>
+</tr>
+<tr>
+<td> Filibuster </td>
+<td>Fred:1</td>
+<td>George:1</td>
+</tr>
+<tr>
+<td> Anglia </td>
+<td>Mr:1</td>
+</tr>
+<tr>
+<td> Ela </td>
+<td>Ginny:1</td>
+</tr>
+<tr>
+<td> King </td>
+<td>Cross:3</td>
+<td>Harry:1</td>
+</tr>
+<tr>
+<td> Norte </td>
+<td>Ron:1</td>
+</tr>
+<tr>
+<td> Estás </td>
+<td>Ron:1</td>
+</tr>
+<tr>
+<td> McGonagall </td>
+<td>Gryffindor:2</td>
+<td>Weasley:1</td>
+<td>Harry:1</td>
+<td>Madam:1</td>
+<td>Mas:1</td>
+<td>Flitwick:1</td>
+<td>Peeves:1</td>
+<td>Ron:2</td>
+<td>Calculo:1</td>
+<td>De:1</td>
+<td>Hermione:1</td>
+<td>Hogwarts:1</td>
+<td>Dumbledore:1</td>
+<td>Esta:1</td>
+</tr>
+<tr>
+<td> Hufflepuff </td>
+<td>Ravenclaw:1</td>
+<td>Slytherin:2</td>
+<td>Harry:1</td>
+</tr>
+<tr>
+<td> Ravenclaw </td>
+<td>Slytherin:1</td>
+<td>Hufflepuff:1</td>
+<td>Penelope:1</td>
+<td>Penelope Clearwater:1</td>
+</tr>
+<tr>
+<td> Slytherin </td>
+<td>Snape:2</td>
+<td>Oliver:1</td>
+<td>Este:1</td>
+<td>Weasley:1</td>
+<td>Malfoy:1</td>
+<td>Gryffindor:1</td>
+<td>Slytherin:2</td>
+<td>Harry:2</td>
+<td>Hermione:1</td>
+<td>Draco:1</td>
+<td>Língua:1</td>
+<td>Percy:1</td>
+<td>Basilisk:1</td>
+<td>McGonagall:1</td>
+<td>Muggle:1</td>
+<td>Hogwarts:1</td>
+<td>Riddle:1</td>
+</tr>
+<tr>
+<td> Norfolk </td>
+<td>Mrs:1</td>
+<td>Bayliss:1</td>
+</tr>
+<tr>
+<td> Natal </td>
+<td>Ron:2</td>
+<td>Hermione:3</td>
+<td>Hogwarts:1</td>
+<td>Hagrid:1</td>
+<td>Slytherins:1</td>
+<td>Crabbe:1</td>
+<td>Goyle:1</td>
+</tr>
+<tr>
+<td> Severus </td>
+<td>Dumbledore:1</td>
+<td>McGonagall:1</td>
+</tr>
+<tr>
+<td> Voltou </td>
+<td>McGonagall:1</td>
+</tr>
+<tr>
+<td> Minerva </td>
+<td>Dumbledore:1</td>
+</tr>
+<tr>
+<td> Seamus Finnigan </td>
+<td>Dean:1</td>
+<td>Se:1</td>
+</tr>
+<tr>
+<td> Thomas </td>
+<td>Neville Loogbottom:1</td>
+<td>Harry:1</td>
+<td>Muggles:1</td>
+</tr>
+<tr>
+<td> Seamus </td>
+<td>Podem:1</td>
+<td>Hoje:1</td>
+</tr>
+<tr>
+<td> Dean </td>
+<td>Seamus:1</td>
+<td>Seamas:1</td>
+</tr>
+<tr>
+<td> Neville </td>
+<td>Daqui:1</td>
+<td>Dean:2</td>
+<td>Seamus:1</td>
+<td>Hermione:1</td>
+<td>Justin Finch:1</td>
+<td>Snape:1</td>
+<td>Seamas:1</td>
+</tr>
+<tr>
+<td> Herbologia </td>
+<td>Hufflepuff:1</td>
+</tr>
+<tr>
+<td> Sprout </td>
+<td>Ron:1</td>
+<td>Mandrágora:1</td>
+<td>Agora:1</td>
+<td>Mandrágoras:1</td>
+<td>Logo:1</td>
+</tr>
+<tr>
+<td> Estive </td>
+<td>Sprout:1</td>
+</tr>
+<tr>
+<td> Olhou </td>
+<td>Harry:2</td>
+<td>Eu:1</td>
+<td>Hermione:1</td>
+<td>Weasley:1</td>
+</tr>
+<tr>
+<td> Mandrágoras </td>
+<td>Sprout:1</td>
+<td>Mrs:1</td>
+</tr>
+<tr>
+<td> Mandrágora </td>
+<td>Basilisk:1</td>
+</tr>
+<tr>
+<td> Agora </td>
+<td>Mandrágoras:1</td>
+</tr>
+<tr>
+<td> Finch </td>
+<td>Hufflepuff:1</td>
+</tr>
+<tr>
+<td> Conheço </td>
+<td>Harry Potter:1</td>
+</tr>
+<tr>
+<td> Colin </td>
+<td>Uma:1</td>
+<td>Harry:3</td>
+<td>Dobby:1</td>
+<td>Hermione:1</td>
+<td>Potter:1</td>
+<td>Justin:1</td>
+</tr>
+<tr>
+<td> Crabbe </td>
+<td>Goyle:14</td>
+<td>Malfoy:1</td>
+<td>Inacreditável:1</td>
+</tr>
+<tr>
+<td> Goyle </td>
+<td>Crabbe:2</td>
+<td>Malfoy:3</td>
+<td>Ron:1</td>
+</tr>
+<tr>
+<td> Cala </td>
+<td>Malfoy:1</td>
+</tr>
+<tr>
+<td> Era </td>
+<td>Hogwarts:1</td>
+</tr>
+<tr>
+<td> Viagens </td>
+<td>Vampiros:1</td>
+</tr>
+<tr>
+<td> Creevey </td>
+<td>Ginny:1</td>
+</tr>
+<tr>
+<td> Neville Longbottom </td>
+<td>Duendes:1</td>
+</tr>
+<tr>
+<td> Fim </td>
+<td>Um Lobisomem:1</td>
+</tr>
+<tr>
+<td> Ogden </td>
+<td>Old Firewhisky:1</td>
+</tr>
+<tr>
+<td> Finnigan </td>
+<td>Dean:1</td>
+</tr>
+<tr>
+<td> Nota </td>
+<td>Miss Hermione Granger:1</td>
+</tr>
+<tr>
+<td> Bem </td>
+<td>Percy:1</td>
+</tr>
+<tr>
+<td> Tudo </td>
+<td>Harry:1</td>
+</tr>
+<tr>
+<td> Olá </td>
+<td>Colin:1</td>
+<td>Harry:1</td>
+<td>Justin:1</td>
+<td>Murta:1</td>
+</tr>
+<tr>
+<td> Flitwick </td>
+<td>Sinistra do Departamento:1</td>
+</tr>
+<tr>
+<td> Planeava </td>
+<td>Sábado:1</td>
+<td>Ron:1</td>
+</tr>
+<tr>
+<td> Sábado </td>
+<td>Ron:1</td>
+</tr>
+<tr>
+<td> Oliver </td>
+<td>George:2</td>
+</tr>
+<tr>
+<td> Wood </td>
+<td>Vamos:1</td>
+<td>Nenhuma:1</td>
+<td>Eu:1</td>
+<td>Onde:1</td>
+<td>Gryffindor:1</td>
+<td>Harry:3</td>
+<td>Weasley:1</td>
+</tr>
+<tr>
+<td> Uau </td>
+<td>Quidditch:1</td>
+</tr>
+<tr>
+<td> George Weasley </td>
+<td>Gryffindor:1</td>
+</tr>
+<tr>
+<td> Katie Bell </td>
+<td>Angelina:1</td>
+</tr>
+<tr>
+<td> Fred Weasley </td>
+<td>Alicia Spinnet:1</td>
+</tr>
+<tr>
+<td> Nós </td>
+<td>Quidditch:1</td>
+<td>Malfoy:1</td>
+<td>Goyle:1</td>
+<td>Crabbe:1</td>
+</tr>
+<tr>
+<td> Flint </td>
+<td>Wood:1</td>
+<td>Mas:1</td>
+<td>Uma:1</td>
+<td>Malfoy:2</td>
+</tr>
+<tr>
+<td> Alicia </td>
+<td>Katie:1</td>
+</tr>
+<tr>
+<td> Onde </td>
+<td>Lockhart:1</td>
+</tr>
+<tr>
+<td> Cleansweeps </td>
+<td>Fred:1</td>
+</tr>
+<tr>
+<td> Podes </td>
+<td>Harry:1</td>
+</tr>
+<tr>
+<td> Fang </td>
+<td>Harry:5</td>
+<td>Fang:1</td>
+</tr>
+<tr>
+<td> Encontrei </td>
+<td>Hagrid:1</td>
+</tr>
+<tr>
+<td> Vocês </td>
+<td>Mr:1</td>
+<td>Aliás:1</td>
+<td>Malfoy:1</td>
+</tr>
+<tr>
+<td> Filch </td>
+<td>Ron:2</td>
+<td>George Weasley:1</td>
+<td>Harry:3</td>
+<td>Nick:1</td>
+<td>Pensei:1</td>
+<td>Vocês:1</td>
+<td>Mr:1</td>
+<td>Ele:2</td>
+<td>Um:1</td>
+<td>Junto:1</td>
+<td>Neville:1</td>
+<td>Filch:1</td>
+</tr>
+<tr>
+<td> Tive </td>
+<td>Dursleys:1</td>
+</tr>
+<tr>
+<td> Achas </td>
+<td>Hagrid:1</td>
+</tr>
+<tr>
+<td> Pomfrey </td>
+<td>McGonagall:1</td>
+<td>Mandrágoras:1</td>
+</tr>
+<tr>
+<td> Nick </td>
+<td>Harry:2</td>
+<td>Um:1</td>
+<td>Pensei:1</td>
+<td>Sir Patrick:1</td>
+<td>Nick:1</td>
+<td>McGonagall:1</td>
+<td>Madam:1</td>
+</tr>
+<tr>
+<td> Peeves </td>
+<td>Harry:1</td>
+<td>McGonagall:1</td>
+<td>Peeves:1</td>
+</tr>
+<tr>
+<td> Sir Patrick </td>
+<td>Harry:1</td>
+<td>Ron:1</td>
+<td>Aposto:1</td>
+</tr>
+<tr>
+<td> Miss Granger </td>
+<td>Madam:1</td>
+<td>Miss:1</td>
+</tr>
+<tr>
+<td> Voltem </td>
+<td>Murta:1</td>
+</tr>
+<tr>
+<td> Morto </td>
+<td>Outubro:1</td>
+<td>Dumbledore:1</td>
+</tr>
+<tr>
+<td> Murta </td>
+<td>Peeves:1</td>
+<td>Oh Murta:1</td>
+<td>Hermione:3</td>
+<td>Murta:2</td>
+<td>Eu:1</td>
+<td>Harry:1</td>
+<td>Só:1</td>
+</tr>
+<tr>
+<td> Murta Queixosa </td>
+<td>Tenho:1</td>
+<td>Filch:1</td>
+<td>Mrs:1</td>
+<td>Harry:1</td>
+<td>Câmara dos Segredos:1</td>
+</tr>
+<tr>
+<td> Patrick </td>
+<td>Nick:1</td>
+</tr>
+<tr>
+<td> Argus </td>
+<td>Filch:1</td>
+<td>Vocês:1</td>
+<td>Mr:1</td>
+</tr>
+<tr>
+<td> Gilderoy </td>
+<td>Dumbledore:1</td>
+</tr>
+<tr>
+<td> Ouagadogou </td>
+<td>LockLart:1</td>
+<td>Uma:1</td>
+</tr>
+<tr>
+<td> LockLart </td>
+<td>Uma:1</td>
+</tr>
+<tr>
+<td> Porquê </td>
+<td>Gilderoy:1</td>
+</tr>
+<tr>
+<td> Tem </td>
+<td>Harry:1</td>
+</tr>
+<tr>
+<td> Justin </td>
+<td>SEM:1</td>
+<td>Nick:6</td>
+<td>Madam:1</td>
+<td>Hermione:1</td>
+<td>Basilisk:1</td>
+</tr>
+<tr>
+<td> Justin Finch </td>
+<td>Snape:1</td>
+</tr>
+<tr>
+<td> Todo </td>
+<td>Lockhart:1</td>
+</tr>
+<tr>
+<td> Câmara dos Segredos </td>
+<td>Hermione:1</td>
+<td>Basilisk:1</td>
+<td>Ron:1</td>
+</tr>
+<tr>
+<td> História da Magia </td>
+<td>Gilderoy Lockhart:1</td>
+</tr>
+<tr>
+<td> Binns </td>
+<td>Harry:1</td>
+<td>Sim:1</td>
+<td>Não:1</td>
+<td>Repito:1</td>
+<td>Dumbledore:1</td>
+<td>Madam:1</td>
+</tr>
+<tr>
+<td> Ora </td>
+<td>Câmara:1</td>
+</tr>
+<tr>
+<td> Segredos </td>
+<td>Hogwarts:1</td>
+<td>Slytherin:1</td>
+</tr>
+<tr>
+<td> Godric Gryffindor </td>
+<td>Helga Hufflepuff:1</td>
+<td>Rowena Ravenclaw:1</td>
+</tr>
+<tr>
+<td> Helga Hufflepuff </td>
+<td>Rowena Ravenclaw:1</td>
+</tr>
+<tr>
+<td> Repito </td>
+<td>Dumbledore:1</td>
+</tr>
+<tr>
+<td> Nos Slytherin </td>
+<td>Bem:1</td>
+</tr>
+<tr>
+<td> Adeus </td>
+<td>Harry:1</td>
+<td>Harry Potter:1</td>
+</tr>
+<tr>
+<td> Lembram </td>
+<td>Millicent:1</td>
+</tr>
+<tr>
+<td> Ouve </td>
+<td>Harry:1</td>
+</tr>
+<tr>
+<td> Padrão de Encantamentos </td>
+<td>Grau:1</td>
+</tr>
+<tr>
+<td> Transilvânia </td>
+<td>Lockhart:1</td>
+</tr>
+<tr>
+<td> Potente Potions </td>
+<td>Tem:1</td>
+</tr>
+<tr>
+<td> Madam Prince </td>
+<td>Nós:1</td>
+</tr>
+<tr>
+<td> Nessa </td>
+<td>Malfoy:1</td>
+</tr>
+<tr>
+<td> Cabe </td>
+<td>Harry:1</td>
+</tr>
+<tr>
+<td> Hooch </td>
+<td>Quidditch:1</td>
+<td>Flin:1</td>
+<td>Wood:1</td>
+<td>Harry:1</td>
+<td>Prontos:1</td>
+</tr>
+<tr>
+<td> Flin </td>
+<td>Wood:1</td>
+</tr>
+<tr>
+<td> Madam Hooch </td>
+<td>Três:1</td>
+<td>Harry:1</td>
+<td>Hufflepuff:1</td>
+</tr>
+<tr>
+<td> Alguém </td>
+<td>Harry:1</td>
+</tr>
+<tr>
+<td> Grande </td>
+<td>Harry:1</td>
+</tr>
+<tr>
+<td> Madam Pomfrey </td>
+<td>Pomfrey:1</td>
+<td>Ron:1</td>
+<td>Hermione:1</td>
+<td>Dumbledore:2</td>
+<td>Tudo:1</td>
+<td>Harry:1</td>
+</tr>
+<tr>
+<td> Acabei </td>
+<td>Marcus:1</td>
+</tr>
+<tr>
+<td> Mal </td>
+<td>Harry:1</td>
+</tr>
+<tr>
+<td> Mau </td>
+<td>Dobby:2</td>
+</tr>
+<tr>
+<td> Vá </td>
+<td>Harry Potter:1</td>
+</tr>
+<tr>
+<td> Petrificado </td>
+<td>Madam Pomfrey:1</td>
+</tr>
+<tr>
+<td> Albus </td>
+<td>Fudge:1</td>
+</tr>
+<tr>
+<td> Quando </td>
+<td>Draco:1</td>
+</tr>
+<tr>
+<td> Dezembro </td>
+<td>McGonagall:1</td>
+</tr>
+<tr>
+<td> Incantatem </td>
+<td>Harry:1</td>
+</tr>
+<tr>
+<td> Millicent Bulstrode </td>
+<td>Ron:1</td>
+</tr>
+<tr>
+<td> Mcmillan </td>
+<td>Miss Fawcett:1</td>
+</tr>
+<tr>
+<td> Vai </td>
+<td>Justin:1</td>
+<td>Mrs:1</td>
+</tr>
+<tr>
+<td> Ernie </td>
+<td>Hufflepuff:1</td>
+<td>Hannah:1</td>
+</tr>
+<tr>
+<td> Crac </td>
+<td>Crac:1</td>
+</tr>
+<tr>
+<td> Terias </td>
+<td>Slytherin:1</td>
+</tr>
+<tr>
+<td> Fawkes </td>
+<td>Harry:2</td>
+<td>Sentiu:1</td>
+<td>Fawkes:1</td>
+</tr>
+<tr>
+<td> Abram </td>
+<td>Slytherin:1</td>
+</tr>
+<tr>
+<td> Ninguém </td>
+<td>Weasley:1</td>
+</tr>
+<tr>
+<td> Calculo </td>
+<td>Dumbledore:1</td>
+</tr>
+<tr>
+<td> Azkaban </td>
+<td>Hagrid:1</td>
+</tr>
+<tr>
+<td> Merlim </td>
+<td>Terceiro:1</td>
+<td>Membro Honorário da Liga de Defesa:1</td>
+</tr>
+<tr>
+<td> Terceiro </td>
+<td>Membro Honorário da Liga de Defesa:1</td>
+</tr>
+<tr>
+<td> Essa </td>
+<td>Ron:1</td>
+</tr>
+<tr>
+<td> Entre </td>
+<td>Ministério:1</td>
+</tr>
+<tr>
+<td> Aniversário </td>
+<td>Mabel:1</td>
+</tr>
+<tr>
+<td> Vauxhall Road </td>
+<td>Londres:1</td>
+</tr>
+<tr>
+<td> Riddle </td>
+<td>Ron:2</td>
+<td>Prefiro:1</td>
+<td>Pai Muggle:1</td>
+<td>Harry:1</td>
+<td>Hermione:1</td>
+<td>Percy:1</td>
+<td>Muggle:1</td>
+<td>Hagrid:1</td>
+<td>Mas:2</td>
+<td>Preservada:1</td>
+<td>Pela:1</td>
+<td>Do:1</td>
+<td>Ginny:2</td>
+<td>Como:1</td>
+<td>Sozinho:1</td>
+<td>Câmara dos Segredos:1</td>
+<td>Basilisk:1</td>
+</tr>
+<tr>
+<td> Ginny Weasley </td>
+<td>Harry:1</td>
+<td>Ron:1</td>
+</tr>
+<tr>
+<td> Como Prefeito </td>
+<td>Harry:1</td>
+</tr>
+<tr>
+<td> Tom Riddle </td>
+<td>Harry:1</td>
+</tr>
+<tr>
+<td> Dippet </td>
+<td>Tenho:1</td>
+<td>Eu:1</td>
+</tr>
+<tr>
+<td> Tom </td>
+<td>Marvolo:1</td>
+<td>Harry:1</td>
+<td>Percy:1</td>
+</tr>
+<tr>
+<td> Meu </td>
+<td>Hagrid:1</td>
+</tr>
+<tr>
+<td> Rubeus </td>
+<td>Riddle:2</td>
+</tr>
+<tr>
+<td> Vou </td>
+<td>Rubeus:1</td>
+</tr>
+<tr>
+<td> Ernie Mcmillan </td>
+<td>Harry:1</td>
+<td>Só:1</td>
+</tr>
+<tr>
+<td> Centro de Cuidados </td>
+<td>Criaturas Mágicas:1</td>
+</tr>
+<tr>
+<td> Runas Antigas </td>
+<td>Alcance de Todos:1</td>
+</tr>
+<tr>
+<td> Uuuus </td>
+<td>Wood:1</td>
+</tr>
+<tr>
+<td> Aquela </td>
+<td>Ravenclaw:1</td>
+<td>Penelope:1</td>
+</tr>
+<tr>
+<td> Fudge </td>
+<td>Muito:1</td>
+<td>Mr:1</td>
+</tr>
+<tr>
+<td> Cornelius </td>
+<td>Hagrid:1</td>
+</tr>
+<tr>
+<td> Conselho Directivo </td>
+<td>Fudge:1</td>
+<td>Mr:1</td>
+</tr>
+<tr>
+<td> Podemos </td>
+<td>Fang:1</td>
+</tr>
+<tr>
+<td> Oh </td>
+<td>Ron:1</td>
+<td>Hermione:1</td>
+<td>Dumbledore:1</td>
+</tr>
+<tr>
+<td> Aragog </td>
+<td>Eu:1</td>
+<td>Não:2</td>
+</tr>
+<tr>
+<td> Terra </td>
+<td>Basilisk:1</td>
+</tr>
+<tr>
+<td> Basilisk </td>
+<td>Nick:1</td>
+<td>Ron:2</td>
+<td>Harry:2</td>
+</tr>
+<tr>
+<td> Fica </td>
+<td>Lockhart:1</td>
+</tr>
+<tr>
+<td> Do </td>
+<td>Ginny:1</td>
+</tr>
+<tr>
+<td> Giony Weasley </td>
+<td>Câmara dos Segredos:1</td>
+</tr>
+<tr>
+<td> Armando Dippet </td>
+<td>Tom Riddle:1</td>
+</tr>
+<tr>
+<td> Sozinho </td>
+<td>Câmara dos Segredos:1</td>
+</tr>
+<tr>
+<td> Desde </td>
+<td>Bill:1</td>
+</tr>
+<tr>
+<td> Dirigiu </td>
+<td>Repouso:1</td>
+</tr>
+<tr>
+<td> Pôs </td>
+<td>Gryffindor:1</td>
+<td>Dumbledore:1</td>
+</tr>
+<tr>
+<td> Deu </td>
+<td>Dobby:1</td>
+</tr>
+<tr>
+<td> Disseste </td>
+<td>Aquele:1</td>
+</tr>
+</tbody></table></div></section>
+<section> <h5> Personagem com mais interaçoes: Harry</h5>
+<h5> Numero de interaçoes com Harry: 119</h5>
+<h5> Número total de interações: 1720</h5></section>
+</body> </html>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div class="story__content" id="story-content">
+
+
+    <figure class="story__media media media--image media--action  media--horizontal-medium" data-media-action="modal" aria-label="media">
+        <div class="flex-media camera" style="padding-bottom: 66.65%;">
+                <img alt="Na penitenciária de máxima segurança de Bishopville estão actualmente cerca de 1500 reclusos" data-media-size="2048x1365" data-media-viewer="https://imagens.publicocdn.com/imagens.aspx/1217586?tp=UH&amp;amp;db=IMAGENS" data-interchange="[https://imagens.publicocdn.com/imagens.aspx/1217586?tp=UH&amp;amp;db=IMAGENS&amp;w=480, small],&#xA;                        [https://imagens.publicocdn.com/imagens.aspx/1217586?tp=UH&amp;amp;db=IMAGENS&amp;w=960, small-retina]&#xA;                        [https://imagens.publicocdn.com/imagens.aspx/1217586?tp=UH&amp;amp;db=IMAGENS&amp;w=640, xmedium],&#xA;                        [https://imagens.publicocdn.com/imagens.aspx/1217586?tp=UH&amp;amp;db=IMAGENS&amp;w=1280, xmedium-retina],&#xA;                        [https://imagens.publicocdn.com/imagens.aspx/1217586?tp=UH&amp;amp;db=IMAGENS&amp;w=1024, medium],&#xA;                        [https://imagens.publicocdn.com/imagens.aspx/1217586?tp=UH&amp;amp;db=IMAGENS&amp;w=2048, medium-retina],&#xA;                        [https://imagens.publicocdn.com/imagens.aspx/1217586?tp=UH&amp;amp;db=IMAGENS&amp;w=823, large],&#xA;                        [https://imagens.publicocdn.com/imagens.aspx/1217586?tp=UH&amp;amp;db=IMAGENS&amp;w=1646, large-retina]" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+                <div class="media-badge">
+                    <span class="show-for-sr">Foto</span>
+                    <i class="i-expand" aria-hidden="true"/>
+                </div>
+        </div>
+            <figcaption class="caption caption--image">
+                Na penitenciária de máxima segurança de Bishopville estão actualmente cerca de 1500 reclusos
+                    <span class="credit">PEDRO CUNHA/Arquivo</span>
+            </figcaption>
+    </figure>
+
+        <aside class="ad-slot ad-slot--margin show-for-large">
+            <div class="ad-slot__w--300">
+                <div class="ad-slot__label">PUB</div>
+                <div id="MrecPrincipalAd" class="ad-slot__container">
+                    <script type="text/javascript">
+                        googletag.cmd.push(function () {
+                            googletag.display(&apos;MrecPrincipalAd&apos;);
+                        });
+                    </script>
+                </div>
+            </div>
+        </aside>
+
+        <div class="story__body" id="story-body">
+                        <p>Pelo menos sete reclusos morreram e outros 17 ficaram feridos com gravidade na sequência de lutas entre os detidos numa prisão de segurança máxima no estado da Carolina do Sul, no Sudeste dos Estados Unidos. Os confrontos ocorreram no Lee Correctional Institution, uma penitenciária em Bishopville, no Condado de Lee, Carolina do Sul.</p>                        <aside class="ad-slot ad-slot--margin show-for-large">
+                            <div class="ad-slot__w--300">
+                                <div class="ad-slot__label">PUB</div>
+                                <div id="botao300x60Ad" class="ad lazy-loading ad-slot__container" data-ad="botao300x60" data-show-always="false" data-show-when="desktop">
+                                    <script type="text/javascript">
+                                        googletag.cmd.push(function () {
+                                            googletag.display(&apos;botao300x60Ad&apos;);
+                                        });
+                                    </script>
+                                </div>
+                            </div>
+                        </aside>
+<p>Um porta-voz do departamento de prisões daquele estado, Jeff Taillon, anunciou o primeiro balanço dos desacatos e revelou que agentes estaduais participaram nas operações para controlar a situação, o que aconteceu perto das 3h, desta segunda-feira (8h hora em Lisboa).</p><p>Taillon acrescentou que nenhum dos agentes da polícia ficou ferido nas operações. Os confrontos entre os reclusos começaram cerca das 19h15 de domingo e 17 feridos graves tiveram de receber cuidados médicos fora da prisão.</p>                    <aside class="ad-slot ad-slot--margin hide-for-large">
+                        <div class="ad-slot__w--300">
+                            <div class="ad-slot__label">PUB</div>
+                            <div id="MrecPrincipalAdMobile" class="ad-slot__container">
+                                <script type="text/javascript">
+                                        googletag.cmd.push(function () {
+                                            googletag.display(&apos;MrecPrincipalAdMobile&apos;);
+                                        });
+                                </script>
+                            </div>
+                        </div>
+                    </aside>
+<p>O departamento da Carolina do Sul responsável pelas penitenciárias indicou que os confrontos ocorreram em três unidades de detenção. Na penitenciária de máxima segurança de Bishopville estão actualmente cerca de 1500 reclusos, alguns dos mais violentos e a cumprir as maiores penas da Carolina do Sul.</p><p>Em 2015, dois guardas prisionais foram esfaqueados e em Fevereiro um recluso matou outro.</p>
+
+
+            <aside class="ad-slot ad-slot--margin hide-for-large">
+                <div class="ad-slot__w--300">
+                    <div class="ad-slot__label">PUB</div>
+                    <div id="botao300x60AdMobile" class="ad lazy-loading ad-slot__container" data-ad="botao300x60Mobile" data-show-always="false" data-show-when="mobile">
+                        <script type="text/javascript">
+                            googletag.cmd.push(function () {
+                                googletag.display(&apos;botao300x60AdMobile&apos;);
+                                //googletag.pubads().refresh();
+                            });
+                        </script>
+                    </div>
+                </div>
+            </aside>
+
+            <div class="story__show-full">
+                <button class="button story__show-full__button page-count" type="button" id="story-showfull">Continuar a ler</button>
+            </div>
+        </div>
+
+
+    </div>

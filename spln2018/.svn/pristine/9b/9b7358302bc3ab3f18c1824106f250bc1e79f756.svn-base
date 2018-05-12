@@ -1,0 +1,67 @@
+<html>
+    <head>
+       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       <meta charset="UTF-8">
+    </head>
+    <body>
+        <center><h1>Módulos</h1></center>
+
+        <h2>sys:</h2>
+        <p>Este módulo permite o acesso a algumas variáveis utilizadas e mantidas pelo interpretador e a funções que interagem frequentemente com o interpretador.</p>
+        <a href="https://docs.python.org/3/library/sys.html"><h6>Documentação - Python Software Fundation</h6></a>
+        
+        <h2>getopt:</h2>
+        <p>Este módulo ajuda scripts a fazer o parse dos argumentos da linha de comando armazenados em <code>sys.argv</code>. Suporta as mesmas convenções do Linux <code>getopt()</code>.</p>
+        <a href="https://docs.python.org/3/library/getopt.html"><h6>Documentação - Python Software Fundation</h6></a>
+
+        <h2>os:</h2>
+        <p>Este módulo fornece uma via portátil de usar as funcionalidades dependentes do sistema operativo.</p>
+        <p>Se pretender: </p>
+        <ul>
+            <li>Escrever e ler ficheiros, consulte <code>open()</code></li>
+            <li>Manipular <i>paths</i>, consulte <code>os.path</code></li>
+            <li>Ler as linhas de um ficheiro, consulte <code>fileinput</code></li>
+            <li>Criar ficheiros temporários e directorias, consulte <code>tempfile</code></li>
+            <li>Fazer uma gestão de alto-nível de ficheiros e directorias, veja <code>shutil</code></li>
+        </ul>
+        <a href="https://docs.python.org/3/library/os.html"><h6>Documentação - Python Software Fundation</h6></a>
+
+        <h2>fileinput:</h2>
+        <p>Este módulo implementa funções que facilitam a escrita de um <i>loop</i> para o parse do <i>standard input</i> ou de uma lista de ficheiros.</p>
+        <a href="https://docs.python.org/3/library/fileinput.html"><h6>Documentação - Python Software Fundation</h6></a>
+
+        <h2>shutil:</h2>
+        <p>O módulo <code>shutil</code> oferece operações de alto-nível em ficheiros e colecções de ficheiros. Em particular, são incluídas funções que suportam a cópia e remoção de ficheiros.</p>
+        <a href="https://docs.python.org/3/library/shutil.html"><h6>Documentação - Python Software Fundation</h6></a>
+
+        <h2>subprocess:</h2>
+        <p>O módulo <code>subprocess</code> permite criar novos processos, conectar os respectivos pipes de input/output/erro e obter os códigos de retorno.</p>
+        <p>Este módulo tem o intuito de substituir alguns módulos antigos e funções:</p>
+        <ul>
+            <li>os.system</li>
+            <li>os.spawn</li>
+        </ul>
+        <a href="https://docs.python.org/3/library/subprocess.html"><h6>Documentação - Python Software Fundation</h6></a>
+
+        <h2>pandas:</h2>
+        <p>O módulo <code>pandas</code> oferece estruturas desenhadas para fazer com que o trabalho que envolva dados relacionais ou etiquetáveis seja fácil e intuítivo.</p>
+        <a href="https://pandas.pydata.org/pandas-docs/stable/"><h6>Documentação - pydata.org</h6></a>
+        <a href="https://www.datacamp.com/community/blog/python-pandas-cheat-sheet"><h6>Pandas Cheat Sheet</h6></a>
+
+        <h2>matplotlib:</h2>
+        <p>O módulo <code>matplotlib</code> permite o <i>output</i> de gráficos numa grande variedade de formatos e ambientes interactivos.</p>
+        <a href="https://matplotlib.org/"><h6>Documentação - matplotlib.org</h6></a>
+
+        <h2>ntlk:</h2>
+        <p>O NLTK (Natural Language Toolkit) é um conjunto de bibliotecas e programas para processamento de liguagens naturais (NLP).</p>
+        <a href="https://www.nltk.org/"><h6>Documentação - nltk.org</h6></a>
+
+        <h2>pprint:</h2>
+        <p>O módulo <code>pprint</code> fornece a capacidade de fazer <i>pretty-print</i> de estrututras de dados do Python.</i></p>
+        <a href="https://docs.python.org/3/library/pprint.html"><h6>Documentação - Python Software Fundation</h6></a>
+
+        <h2>shelve:</h2>
+        <p>O módulo shelve funciona como um dicionário de dados persistente.</p>
+        <a href="https://docs.python.org/3/library/shelve.html"><h6>Documentação - Python Software Fundation</h6></a>
+    </body>
+</html>
